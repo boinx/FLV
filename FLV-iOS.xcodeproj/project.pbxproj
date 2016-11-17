@@ -1,0 +1,432 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B6BD11BA1DDDD88A00505E9F /* FLVWriter.m in Sources */ = {isa = PBXBuildFile; fileRef = 5024F8E518ED672E00B96639 /* FLVWriter.m */; };
+		B6BD11BB1DDDD88A00505E9F /* CMAudioCodec+FLV.c in Sources */ = {isa = PBXBuildFile; fileRef = 5003ABF219D6D7BA0038DD74 /* CMAudioCodec+FLV.c */; };
+		B6BD11BC1DDDD88A00505E9F /* CMSampleBuffer+FLV.c in Sources */ = {isa = PBXBuildFile; fileRef = 5024F8ED18ED686B00B96639 /* CMSampleBuffer+FLV.c */; };
+		B6BD11BD1DDDD88A00505E9F /* CMVideoCodec+FLV.c in Sources */ = {isa = PBXBuildFile; fileRef = 5003ABEE19D6D39C0038DD74 /* CMVideoCodec+FLV.c */; };
+		B6BD11BE1DDDD88A00505E9F /* NSMutableDictionary+FLVMetadata.m in Sources */ = {isa = PBXBuildFile; fileRef = 5016B1851A1C869000D2942D /* NSMutableDictionary+FLVMetadata.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B6BD11A51DDDD84700505E9F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B6BD11A11DDDD84700505E9F /* AMF-iOS.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = B63AAFC21DDDD31800B168A3;
+			remoteInfo = AMF;
+		};
+		B6BD11AB1DDDD84C00505E9F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B6BD11A71DDDD84C00505E9F /* CoreMediaPlus-iOS.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 500C2559189A8D870062DB0E;
+			remoteInfo = CoreMediaPlus;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		B6BD11AF1DDDD85400505E9F /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		5003ABEE19D6D39C0038DD74 /* CMVideoCodec+FLV.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = "CMVideoCodec+FLV.c"; sourceTree = "<group>"; };
+		5003ABEF19D6D39C0038DD74 /* CMVideoCodec+FLV.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CMVideoCodec+FLV.h"; sourceTree = "<group>"; };
+		5003ABF219D6D7BA0038DD74 /* CMAudioCodec+FLV.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = "CMAudioCodec+FLV.c"; sourceTree = "<group>"; };
+		5003ABF319D6D7BA0038DD74 /* CMAudioCodec+FLV.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CMAudioCodec+FLV.h"; sourceTree = "<group>"; };
+		5016B1841A1C869000D2942D /* NSMutableDictionary+FLVMetadata.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableDictionary+FLVMetadata.h"; sourceTree = "<group>"; };
+		5016B1851A1C869000D2942D /* NSMutableDictionary+FLVMetadata.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableDictionary+FLVMetadata.m"; sourceTree = "<group>"; };
+		5024F82918ED5DAE00B96639 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		5024F82C18ED5DAE00B96639 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		5024F82D18ED5DAE00B96639 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		5024F82E18ED5DAE00B96639 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		5024F83A18ED5DAE00B96639 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		5024F85218ED5DFE00B96639 /* FLV.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FLV.h; sourceTree = "<group>"; };
+		5024F8E418ED672E00B96639 /* FLVWriter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FLVWriter.h; sourceTree = "<group>"; };
+		5024F8E518ED672E00B96639 /* FLVWriter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FLVWriter.m; sourceTree = "<group>"; };
+		5024F8EC18ED686B00B96639 /* CMSampleBuffer+FLV.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CMSampleBuffer+FLV.h"; sourceTree = "<group>"; };
+		5024F8ED18ED686B00B96639 /* CMSampleBuffer+FLV.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = "CMSampleBuffer+FLV.c"; sourceTree = "<group>"; };
+		5096149F19D6CB8F005F290E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		509614A019D6CB8F005F290E /* FLVSampleMovie.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FLVSampleMovie.m; sourceTree = "<group>"; };
+		B6BD11A11DDDD84700505E9F /* AMF-iOS.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = "AMF-iOS.xcodeproj"; path = "../AMF/AMF-iOS.xcodeproj"; sourceTree = "<group>"; };
+		B6BD11A71DDDD84C00505E9F /* CoreMediaPlus-iOS.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = "CoreMediaPlus-iOS.xcodeproj"; path = "../CoreMediaPlus/CoreMediaPlus-iOS.xcodeproj"; sourceTree = "<group>"; };
+		B6BD11B11DDDD85400505E9F /* libFLV.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libFLV.a; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B6BD11AE1DDDD85400505E9F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5024F81D18ED5DAE00B96639 = {
+			isa = PBXGroup;
+			children = (
+				B6BD11A11DDDD84700505E9F /* AMF-iOS.xcodeproj */,
+				B6BD11A71DDDD84C00505E9F /* CoreMediaPlus-iOS.xcodeproj */,
+				5024F85018ED5DF500B96639 /* FLV */,
+				5096149D19D6CB8F005F290E /* FLVTests */,
+				5024F82818ED5DAE00B96639 /* Frameworks */,
+				5024F82718ED5DAE00B96639 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5024F82718ED5DAE00B96639 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B6BD11B11DDDD85400505E9F /* libFLV.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5024F82818ED5DAE00B96639 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5024F82918ED5DAE00B96639 /* Cocoa.framework */,
+				5024F83A18ED5DAE00B96639 /* XCTest.framework */,
+				5024F82B18ED5DAE00B96639 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5024F82B18ED5DAE00B96639 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5024F82C18ED5DAE00B96639 /* Foundation.framework */,
+				5024F82D18ED5DAE00B96639 /* CoreData.framework */,
+				5024F82E18ED5DAE00B96639 /* AppKit.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		5024F85018ED5DF500B96639 /* FLV */ = {
+			isa = PBXGroup;
+			children = (
+				5024F85218ED5DFE00B96639 /* FLV.h */,
+				5024F8E418ED672E00B96639 /* FLVWriter.h */,
+				5024F8E518ED672E00B96639 /* FLVWriter.m */,
+				5003ABF319D6D7BA0038DD74 /* CMAudioCodec+FLV.h */,
+				5003ABF219D6D7BA0038DD74 /* CMAudioCodec+FLV.c */,
+				5024F8EC18ED686B00B96639 /* CMSampleBuffer+FLV.h */,
+				5024F8ED18ED686B00B96639 /* CMSampleBuffer+FLV.c */,
+				5003ABEF19D6D39C0038DD74 /* CMVideoCodec+FLV.h */,
+				5003ABEE19D6D39C0038DD74 /* CMVideoCodec+FLV.c */,
+				5016B1841A1C869000D2942D /* NSMutableDictionary+FLVMetadata.h */,
+				5016B1851A1C869000D2942D /* NSMutableDictionary+FLVMetadata.m */,
+			);
+			name = FLV;
+			sourceTree = "<group>";
+		};
+		5096149D19D6CB8F005F290E /* FLVTests */ = {
+			isa = PBXGroup;
+			children = (
+				509614A019D6CB8F005F290E /* FLVSampleMovie.m */,
+				5096149E19D6CB8F005F290E /* Supporting Files */,
+			);
+			path = FLVTests;
+			sourceTree = "<group>";
+		};
+		5096149E19D6CB8F005F290E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5096149F19D6CB8F005F290E /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B6BD11A21DDDD84700505E9F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B6BD11A61DDDD84700505E9F /* libAMF.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B6BD11A81DDDD84C00505E9F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B6BD11AC1DDDD84C00505E9F /* libCoreMediaPlus.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B6BD11B01DDDD85400505E9F /* FLV */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B6BD11B71DDDD85400505E9F /* Build configuration list for PBXNativeTarget "FLV" */;
+			buildPhases = (
+				B6BD11AD1DDDD85400505E9F /* Sources */,
+				B6BD11AE1DDDD85400505E9F /* Frameworks */,
+				B6BD11AF1DDDD85400505E9F /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FLV;
+			productName = FLV;
+			productReference = B6BD11B11DDDD85400505E9F /* libFLV.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5024F81E18ED5DAE00B96639 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = McZonk;
+				TargetAttributes = {
+					B6BD11B01DDDD85400505E9F = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = 6372P8EH2J;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 5024F82118ED5DAE00B96639 /* Build configuration list for PBXProject "FLV-iOS" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 5024F81D18ED5DAE00B96639;
+			productRefGroup = 5024F82718ED5DAE00B96639 /* Products */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = B6BD11A21DDDD84700505E9F /* Products */;
+					ProjectRef = B6BD11A11DDDD84700505E9F /* AMF-iOS.xcodeproj */;
+				},
+				{
+					ProductGroup = B6BD11A81DDDD84C00505E9F /* Products */;
+					ProjectRef = B6BD11A71DDDD84C00505E9F /* CoreMediaPlus-iOS.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				B6BD11B01DDDD85400505E9F /* FLV */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		B6BD11A61DDDD84700505E9F /* libAMF.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libAMF.a;
+			remoteRef = B6BD11A51DDDD84700505E9F /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		B6BD11AC1DDDD84C00505E9F /* libCoreMediaPlus.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libCoreMediaPlus.a;
+			remoteRef = B6BD11AB1DDDD84C00505E9F /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B6BD11AD1DDDD85400505E9F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B6BD11BA1DDDD88A00505E9F /* FLVWriter.m in Sources */,
+				B6BD11BB1DDDD88A00505E9F /* CMAudioCodec+FLV.c in Sources */,
+				B6BD11BC1DDDD88A00505E9F /* CMSampleBuffer+FLV.c in Sources */,
+				B6BD11BD1DDDD88A00505E9F /* CMVideoCodec+FLV.c in Sources */,
+				B6BD11BE1DDDD88A00505E9F /* NSMutableDictionary+FLVMetadata.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		5024F84818ED5DAE00B96639 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					.,
+					..,
+				);
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		5024F84918ED5DAE00B96639 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					.,
+					..,
+				);
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		B6BD11B81DDDD85400505E9F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = 6372P8EH2J;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		B6BD11B91DDDD85400505E9F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEVELOPMENT_TEAM = 6372P8EH2J;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5024F82118ED5DAE00B96639 /* Build configuration list for PBXProject "FLV-iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5024F84818ED5DAE00B96639 /* Debug */,
+				5024F84918ED5DAE00B96639 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B6BD11B71DDDD85400505E9F /* Build configuration list for PBXNativeTarget "FLV" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B6BD11B81DDDD85400505E9F /* Debug */,
+				B6BD11B91DDDD85400505E9F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5024F81E18ED5DAE00B96639 /* Project object */;
+}

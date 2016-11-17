@@ -1,0 +1,51 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "14C6A4E25DAF3013A1FD4CDF8410222C96C11576",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "C9C9F21F259668F9016854FAFFE7721CA9E5E577" : 9223372036854775807,
+    "14C6A4E25DAF3013A1FD4CDF8410222C96C11576" : 9223372036854775807,
+    "7E174E69F43F7D6C8183AC07954467E9467DE13C" : 9223372036854775807,
+    "500BCDBBD50C68FB5D1D8B57E65C222CA01797F6" : 9223372036854775807,
+    "FA69E4772244971BDC20E483824516FD71D101D7" : 9223372036854775807
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "92790E14-32AE-4424-821B-5C35B0818DF2",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "C9C9F21F259668F9016854FAFFE7721CA9E5E577" : "AMF\/",
+    "14C6A4E25DAF3013A1FD4CDF8410222C96C11576" : "FLV\/",
+    "7E174E69F43F7D6C8183AC07954467E9467DE13C" : "",
+    "500BCDBBD50C68FB5D1D8B57E65C222CA01797F6" : "..\/..",
+    "FA69E4772244971BDC20E483824516FD71D101D7" : "CoreMediaPlus\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "FLV-iOS",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "FLV-iOS.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/boinx\/FLV.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "14C6A4E25DAF3013A1FD4CDF8410222C96C11576"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "git.assembla.com:mimolive-reporter.2.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "500BCDBBD50C68FB5D1D8B57E65C222CA01797F6"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "git.assembla.com:boinxtv.bxmo.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "7E174E69F43F7D6C8183AC07954467E9467DE13C"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/McZonk\/AMF.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "C9C9F21F259668F9016854FAFFE7721CA9E5E577"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/McZonk\/CoreMediaPlus.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "FA69E4772244971BDC20E483824516FD71D101D7"
+    }
+  ]
+}
