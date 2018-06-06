@@ -15,7 +15,6 @@
 		5003ABF519D6D7BA0038DD74 /* CMAudioCodec+FLV.h in Headers */ = {isa = PBXBuildFile; fileRef = 5003ABF319D6D7BA0038DD74 /* CMAudioCodec+FLV.h */; };
 		5016B1861A1C869000D2942D /* NSMutableDictionary+FLVMetadata.h in Headers */ = {isa = PBXBuildFile; fileRef = 5016B1841A1C869000D2942D /* NSMutableDictionary+FLVMetadata.h */; };
 		5016B1871A1C869000D2942D /* NSMutableDictionary+FLVMetadata.m in Sources */ = {isa = PBXBuildFile; fileRef = 5016B1851A1C869000D2942D /* NSMutableDictionary+FLVMetadata.m */; };
-		5024F82A18ED5DAE00B96639 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5024F82918ED5DAE00B96639 /* Cocoa.framework */; };
 		5024F85418ED5DFE00B96639 /* FLV.h in Headers */ = {isa = PBXBuildFile; fileRef = 5024F85218ED5DFE00B96639 /* FLV.h */; };
 		5024F8E618ED672E00B96639 /* FLVWriter.h in Headers */ = {isa = PBXBuildFile; fileRef = 5024F8E418ED672E00B96639 /* FLVWriter.h */; };
 		5024F8E718ED672E00B96639 /* FLVWriter.m in Sources */ = {isa = PBXBuildFile; fileRef = 5024F8E518ED672E00B96639 /* FLVWriter.m */; };
@@ -107,7 +106,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5024F82A18ED5DAE00B96639 /* Cocoa.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
